@@ -1,5 +1,10 @@
 /* Reset CSS */
-* {
+* 
+head{
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+}
+{
     margin: 15;
     padding: 20;
     box-sizing: border-box;
