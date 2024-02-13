@@ -1,6 +1,5 @@
 /* Reset CSS */
-* 
-head{
+* head{
     font-family:'Times New Roman', Times, serif;
     text-align: center;
     margin: 15;
@@ -14,10 +13,6 @@ body {
     color: #706f6ffc;
 }
 
-.container {
-    width: 40%;
-    margin: 0 auto;
-}
 
 header {
     padding: 10px 0;
