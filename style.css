@@ -1,20 +1,19 @@
 /* Reset CSS */
-* head{
-    font-family:'Times New Roman', Times, serif;
-    text-align: center;
-    margin: 15;
-    padding: 20;
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
 body {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: #090909;
-    color: #706f6ffc;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
 }
 
-
 header {
+    background-color: #333;
+    color: #fff;
     padding: 10px 0;
     text-align: center;
 }
@@ -23,12 +22,20 @@ main {
     padding: 20px 0;
 }
 
+.meta {
+    background-color: #fff;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
 footer {
-    background-color: #090909;
-    color: #706f6ffc;
+    background-color: #333;
+    color: #fff;
     text-align: center;
-    padding: 50px;
-    position:initial; 
+    padding: 10px 0;
+    position: fixed;
     bottom: 0;
     width: 100%;
 }
