@@ -5,15 +5,16 @@
     box-sizing: border-box;
 }
 
+/*parte das letras e cor das metas*/
 body {
     font-family: Arial, sans-serif;
-    background-color: #090909;
-    color: #e3e3e3;
+    background-color: #000000;
+    color: #948a8a;
 }
 
 /*parte do titulo*/
 header {
-    background-color: #333;
+    background-color: #000000;
     color: #6c6464;
     padding: 10px 0;
     text-align: center;
@@ -23,8 +24,9 @@ main {
     padding: 20px 0;
 }
 
+/*parte dos blocos onde ficam as metas*/
 .meta {
-    background-color: #693737;
+    background-color: #100e18;
     margin-bottom: 20px;
     padding: 20px;
     border-radius: 5px;
