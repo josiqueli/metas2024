@@ -27,10 +27,10 @@ main {
 
 footer {
     background-color: #090909;
-    color: #fff;
+    color: #1b1a1a;
     text-align: center;
     padding: 60px;
-    position: static; 
+    position:initial; 
     bottom: 0;
     width: 100%;
 }
