@@ -9,7 +9,7 @@
 body {
     font-family: protest revolution;
     background-color: #000000;
-    color: #948a8a;
+    color: gray;
 }
 
 /*parte do titulo*/
@@ -26,7 +26,7 @@ main {
 
 /*parte dos blocos onde ficam as metas*/
 .meta {
-    background-color: #100e18;
+    background-color: light puerple;
     margin-bottom: 20px;
     padding: 20px;
     border-radius: 5px;
