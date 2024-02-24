@@ -36,10 +36,10 @@ main {
 
 footer {
     background-color: #333;
-    color: #fff;
+    color: light gray;
     text-align: center;
     padding: 10px 0;
     position: fixed;
     bottom: 0;
-    width: 12%;
+    width: 100%;
 }
