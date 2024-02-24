@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Zeyada&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap');
 /* Reset CSS */
 * {
     margin: 0;
@@ -8,7 +8,7 @@
 
 /*parte das letras e cor das metas*/
 body {
-    font-family:Zeyada ;
+    font-family:Protest Revolution ;
     background-color: #000000;
     color:  #948a8a;
 }
