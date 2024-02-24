@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap');
 /* Reset CSS */
 * {
     margin: 0;
@@ -6,7 +7,6 @@
 }
 
 /*parte das letras e cor das metas*/
-@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap');
 body {
     font-family:Protest Revolution ;
     background-color: #000000;
