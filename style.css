@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Zeyada&display=swap');
 /* Reset CSS */
 * {
     margin: 0;
@@ -8,7 +8,7 @@
 
 /*parte das letras e cor das metas*/
 body {
-    font-family:Protest Revolution ;
+    font-family:Caveat ;
     font-size: 18px;
     background-color: #000000;
     color:  #948a8a;
