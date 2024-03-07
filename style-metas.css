@@ -12,7 +12,7 @@
 body{
     background-color: var(--cor-de-fundo);
     color: var(--cinza);
-    font-family: 'Prontest Revolution', sans-serif;
+    font-family: Prontest Revolution, sans-serif;
 }
 
 .conteudo-principal{
