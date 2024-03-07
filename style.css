@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Zeyada&display=swap');
 /* Reset CSS */
 * {
-    margin: 7;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
@@ -9,7 +9,7 @@
 /*parte das letras e cor das metas*/
 body {
     font-family:Caveat ;
-    font-size: 23px;
+    font-size: 21px;
     background-color: #000000;
     color:  #948a8a;
     padding: 47px;
