@@ -12,7 +12,7 @@
 body{
     background-color: var(--cor-de-fundo);
     color: var(--cinza);
-    font-family: Prontest Revolution, sans-serif;
+    font-family: 'Protest Revolution', sans-serif;
 }
 
 .conteudo-principal{
@@ -36,7 +36,7 @@ body{
 }
 
 .botao{
-    font-family: "Chakra Petch", sans-serif;
+    font-family: "Protest Revolution", sans-serif;
     background-color: var(--botao-inativo);
     color: var(--cinza);
     display: flex;
