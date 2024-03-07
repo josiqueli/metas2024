@@ -27,6 +27,9 @@ main {
     padding: 20px 0;
 }
 
+.link a{
+    color:#b47aeb;
+}
 /*parte dos blocos onde ficam as metas*/
 .meta {
     background-color: #100e18;
