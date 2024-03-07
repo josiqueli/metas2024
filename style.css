@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Zeyada&display=swap');
 /* Reset CSS */
 * {
-    margin: 0;
+    margin: 7;
     padding: 0;
     box-sizing: border-box;
 }
