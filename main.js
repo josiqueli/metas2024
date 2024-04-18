@@ -68,6 +68,8 @@ function calculaTempo(tempoObjetivo) {
     horas %= 24;    //obtem o resto da divisão das horas
 
 //a partir daqui fazer o da tela
- 
+    if (tempoFinal > 0){
  return dias + " dias " + horas + " horas " + minutos + " minutos " + segundos + " segundos";
+}else{
+    return "PRAZO ENCERRADO"
 }
