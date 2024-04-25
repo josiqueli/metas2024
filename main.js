@@ -13,39 +13,6 @@ for (let i = 0; i < botoes.length; i++) {
         textos[i].classList.add("ativo");
     }
 }
-
-const botoes = document.querySelectorAll(".botao");
-const textos = document.querySelectorAll(".aba-conteudo");
-
-for (let i = 0; i < botoes.length; i++) {
-    botoes[i].onclick = function () {
-
-        for (let j = 0; j < botoes.length; j++) {
-            botoes[j].classList.remove("ativo");
-            textos[j].classList.remove("ativo");
-        }
-
-        botoes[i].classList.add("ativo");
-        textos[i].classList.add("ativo");
-    }
-}
-
-
-const botoes = document.querySelectorAll(".botao");
-const textos = document.querySelectorAll(".aba-conteudo");
-
-for (let i = 0; i < botoes.length; i++) {
-    botoes[i].onclick = function () {
-
-        for (let j = 0; j < botoes.length; j++) {
-            botoes[j].classList.remove("ativo");
-            textos[j].classList.remove("ativo");
-        }
-
-        botoes[i].classList.add("ativo");
-        textos[i].classList.add("ativo");
-    }
-}
 //cria as constantes e a lista "tempo" dos objetivos ou metas
 const contadores = document.querySelectorAll(".contador");
 const tempoObjetivo1 = new Date("2024-02-02T00:00:00");
@@ -86,3 +53,4 @@ function comecaCronometro(){
     setInterval(atualizaCronometro, 1000);//função que faz a vontagem dos seg.
 }
 comecaCronometro(); //chamada da função que indica o cronometro
+
