@@ -10,7 +10,7 @@ for (let i = 0; i < botoes.length; i++) {
         }
 
         botoes[i].classList.add("ativo");
-        textos[i].classList.add("ativo");/*Aula 03*/
+        textos[i].classList.add("ativo");
     }
 }
 //cria as constantes e a lista "tempo" dos objetivos ou metas
@@ -44,7 +44,7 @@ function calculaTempo(tempoObjetivo) {
 function atualizaCronometro(){
     //laço de repetição para interagir com todos os objetivos
     for(let i = 0; i < contadores.length; i++){
-        contadores [i].textContent = calculaTempo(tempos[i]); //textContent mostra na tela o medidor de tempo
+        contadores[i].textContent = calculaTempo(tempos[i]); //textContent mostra na tela o medidor de tempo
     }
 }
 
