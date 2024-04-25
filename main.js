@@ -10,7 +10,7 @@ for (let i = 0; i < botoes.length; i++) {
         }
 
         botoes[i].classList.add("ativo");
-        textos[i].classList.add("ativo");
+        textos[i].classList.add("ativo");/*Aula 03*/
     }
 }
 //cria as constantes e a lista "tempo" dos objetivos ou metas
@@ -44,13 +44,13 @@ function calculaTempo(tempoObjetivo) {
 function atualizaCronometro(){
     //laço de repetição para interagir com todos os objetivos
     for(let i = 0; i < contadores.length; i++){
-        contadores [i].textContent = calculaTempo(tempos[i]; //textContent mostra na tela o medidor de tempo
+        contadores [i].textContent = calculaTempo(tempos[i]); //textContent mostra na tela o medidor de tempo
     }
 }
 
 function comecaCronometro(){
     atualizaCronometro(); //chama da função criada anterior dentrodesta função
-    setInterval(atualizaCronometro, 1000);//função que faz a vontagem dos seg.
+    setInterval(atualizaCronometro, 1000); //função que faz a vontagem dos seg.
 }
 comecaCronometro(); //chamada da função que indica o cronometro
 
