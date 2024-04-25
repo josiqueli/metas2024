@@ -57,20 +57,13 @@ body{
     display: block;
 }
 
-/*Aula 03*/
-.ativo{
+
+.botao.ativo{
     background-color: var(--botao-ativo);
     border-bottom: 4px solid  var(--azul);
 }
 
-@media screen and (min-width:768px){
-    .botoes{
-        display: flex;
-    }
 
-    .botao:first-child{
-        border-radius: 40px 40px 0 0;
-    }
 
     @media screen and (min-width: 768px){
         .botoes{
@@ -85,7 +78,7 @@ body{
             border-radius: 0 40px 0 0;
         }
     }
-}
+
 .abas-textos{
     background-color: var(--texto-fundo);
     padding: 40px;
