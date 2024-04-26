@@ -54,13 +54,7 @@ body{
 }
 
 .botoes{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    }
-    
-   
-    
+    display: block;
 }
 
 
@@ -89,10 +83,6 @@ body{
     background-color: var(--texto-fundo);
     padding: 40px;
     border-radius: 0 0 40px 40px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    }
 }
 .aba-conteudo.ativo{
     display:block;
