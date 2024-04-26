@@ -101,6 +101,3 @@ body{
     color: var(--verde);
     text-transform: uppercase;
 }
-.abas-conteudo.ativo {
-    display: block;
-}
